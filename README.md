@@ -2,6 +2,10 @@
 
 Provide the functionality to _access, manage and store_ **device topologies**.
 
+## Platform and Language
+
+I chose **C++** because it can make *fast and efficient* reads, writes and data operations. Also, because of its *statically typed syntax*, which is perfect for APIs.
+
 ## How to Run Code
 
 You need **CMake** in order to build and run the project.
