@@ -1,0 +1,32 @@
+{
+  "id": "top2",
+  "components": [
+    {
+      "type": "capacitor",
+      "id": "cap1",
+      "capacitance": {
+        "default": 1000,
+        "min": 100,
+        "max": 10000
+      },
+      "netlist": {
+        "t1": "gnd",
+        "t2": "n2"
+      }
+    },
+    {
+      "type": "pnp",
+      "id": "m0",
+      "m(area)": {
+        "default": 5,
+        "min": 3,
+        "max": 7
+      },
+      "netlist": {
+        "collector": "n2",
+        "gate": "vin",
+        "emitter": "vee"
+      }
+    }
+  ]
+}
